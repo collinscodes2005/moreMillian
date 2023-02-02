@@ -19,3 +19,6 @@ def index(request):
 
 def thanks(request):
     return HttpResponse("Thanks for filling ")
+
+def upload(request):
+    return render('feedback/file-upload')
